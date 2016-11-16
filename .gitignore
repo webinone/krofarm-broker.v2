@@ -1,0 +1,7 @@
+
+# log 디렉토리 제외
+/logs
+
+# vendor 디렉토리의 manifest만 빼고 모두 안함
+/vendor
+!/vendor/manifest
