@@ -20,7 +20,7 @@ func main() {
 	// ProjectNo로 전환한다.
 	Logger.Debug(">>>>>>>>>> KroFarm Broker v.2 Start !!!")
 
-	// MQTT Broker 생성 !!!
+	// MQTT Broker goroutine call
 	go mqtt.StartMqttReceiver()
 
 	// Recovery Middleware
