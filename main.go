@@ -23,6 +23,8 @@ func main() {
 	// MQTT Broker goroutine call
 	go mqtt.StartMqttReceiver()
 
+	// 이건 kist때문에 추가...!!!!!!!! KIST !!!!
+
 	// Recovery Middleware
 	//----------------------------------------------------------------
 	iris.Use(recovery.Handler)
